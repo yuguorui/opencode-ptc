@@ -91,10 +91,10 @@ Inside the executed JavaScript code, these globals are available:
 bun install
 
 # Build
-bun run build
+npm run build
 
 # Type check
-bun run typecheck
+npm run typecheck
 ```
 
 ## License
