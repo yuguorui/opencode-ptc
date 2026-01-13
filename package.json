@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "opencode-ptc",
+  "version": "0.1.0",
+  "description": "Programmatic Tool Calling (PTC) plugin for OpenCode - Execute tools/agents/skills via JavaScript",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "opencode",
+    "plugin",
+    "mcp",
+    "programmatic-tool-calling",
+    "ptc"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@opencode-ai/plugin": "^1.1.14",
+    "@opencode-ai/sdk": "file:/placeholder/opencode/packages/sdk/js",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  },
+  "peerDependencies": {
+    "@opencode-ai/plugin": "^1.0.0"
+  }
+}
