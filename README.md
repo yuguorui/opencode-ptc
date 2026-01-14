@@ -1,4 +1,4 @@
-# opencode-pct
+# opencode-ptc
 
 **Programmatic Tool Calling (PTC)** plugin for [OpenCode](https://github.com/sst/opencode).
 
