@@ -18,6 +18,11 @@ export function createPTCTools(input: PluginInput): Record<string, ToolDefinitio
 
 This tool allows you to write async JavaScript code that orchestrates multiple tool calls, agents, and skills in a single execution. All functions are async and return Promise<string>.
 
+Common use cases include:
+1. Read/search files in the codebase, call TODO tools to record findings and plans to avoid losing context;
+2. Explore the codebase with different tools/agents/skills and aggregate results;
+3. Perform multi-step reasoning and tool usage in a single execution.
+
 AVAILABLE GLOBALS:
 - tools: Object containing all available tools as async functions
 - agents: Object containing all available agents as async functions
@@ -41,6 +46,7 @@ const result = await agents.explore("Find all API endpoints in the codebase");
 return { filesFound: matches.split("\\n").length };
 \`\`\`
 
+Just pass the objects as parameters to your async functions, and use 'await' to call them.
 The code runs in a sandboxed async context. Use 'return' to provide a final result.`,
     args: {
       code: tool.schema.string().describe("JavaScript code to execute. Must be valid async JavaScript."),
