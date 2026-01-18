@@ -46,6 +46,7 @@ export interface PTCContext {
   sessionID: string
   messageID: string
   providerID: string
+  modelID: string
   agent: string
   directory?: string
   client: ReturnType<typeof createOpencodeClient>

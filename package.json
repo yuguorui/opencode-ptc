@@ -28,7 +28,7 @@
   "license": "MIT",
   "dependencies": {
     "@opencode-ai/plugin": "^1.1.14",
-    "@opencode-ai/sdk": "github:yuguorui/opencode#@opencode-ai/sdk-1.1.16-gitpkg"
+    "@opencode-ai/sdk": "github:yuguorui/opencode#@opencode-ai/sdk-9ea99f597-gitpkg"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",

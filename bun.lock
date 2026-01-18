@@ -6,7 +6,7 @@
       "name": "opencode-ptc",
       "dependencies": {
         "@opencode-ai/plugin": "^1.1.14",
-        "@opencode-ai/sdk": "github:yuguorui/opencode#@opencode-ai/sdk-1.1.16-gitpkg",
+        "@opencode-ai/sdk": "github:yuguorui/opencode#@opencode-ai/sdk-9ea99f597-gitpkg",
       },
       "devDependencies": {
         "@types/node": "^22.0.0",
@@ -18,12 +18,12 @@
     },
   },
   "overrides": {
-    "@opencode-ai/sdk": "github:yuguorui/opencode#@opencode-ai/sdk-1.1.16-gitpkg",
+    "@opencode-ai/sdk": "github:yuguorui/opencode#@opencode-ai/sdk-9ea99f597-gitpkg",
   },
   "packages": {
     "@opencode-ai/plugin": ["@opencode-ai/plugin@1.1.19", "", { "dependencies": { "@opencode-ai/sdk": "1.1.19", "zod": "4.1.8" } }, "sha512-Q6qBEjHb/dJMEw4BUqQxEswTMxCCHUpFMMb6jR8HTTs8X/28XRkKt5pHNPA82GU65IlSoPRph+zd8LReBDN53Q=="],
 
-    "@opencode-ai/sdk": ["@opencode-ai/sdk@github:yuguorui/opencode#4b8f6ed", {}, "yuguorui-opencode-4b8f6ed"],
+    "@opencode-ai/sdk": ["@opencode-ai/sdk@github:yuguorui/opencode#7de08ea", {}, "yuguorui-opencode-7de08ea"],
 
     "@types/node": ["@types/node@22.19.6", "", { "dependencies": { "undici-types": "~6.21.0" } }, "sha512-qm+G8HuG6hOHQigsi7VGuLjUVu6TtBo/F05zvX04Mw2uCg9Dv0Qxy3Qw7j41SidlTcl5D/5yg0SEZqOB+EqZnQ=="],
 

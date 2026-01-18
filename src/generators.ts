@@ -131,6 +131,7 @@ export function createToolFunction(
           sessionID: context.sessionID,
           messageID: context.messageID,
           providerID: context.providerID,
+          modelID: context.modelID,
           toolID: tool.name,
           args,
           agent: context.agent,

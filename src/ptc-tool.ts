@@ -74,6 +74,7 @@ The code runs in a sandboxed async context. Use 'return' to provide a final resu
         sessionID: ctx.sessionID,
         messageID: ctx.messageID,
         providerID,
+        modelID,
         agent: ctx.agent,
         client,
       }
